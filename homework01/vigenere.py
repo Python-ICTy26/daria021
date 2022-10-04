@@ -51,6 +51,6 @@ def decrypt_vigenere(ciphertext: str, keyword: str) -> str:
             shift = alphabet_lower.find(keyword[i % len(keyword)])
             plaintext += alphabet_lower[(ind - shift) % 26]
         else:
-            ciphertext += plaintext[i]
+            plaintext += ciphertext[i]
 
     return plaintext

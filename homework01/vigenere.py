@@ -17,7 +17,7 @@ def encrypt_vigenere(plaintext: str, keyword: str) -> str:
             ind = alphabet.find(plaintext[i])
             shift = alphabet.find(keyword[i % len(keyword)])
             ciphertext += alphabet[(ind + shift) % 26]
-        elif:
+        elif plaintext[i] in alphabet_lower:
             ind = alphabet_lower.find(plaintext[i])
             shift = alphabet_lower.find(keyword[i % len(keyword)])
             ciphertext += alphabet_lower[(ind + shift) % 26]
@@ -47,7 +47,7 @@ def decrypt_vigenere(ciphertext: str, keyword: str) -> str:
             ind = alphabet.find(ciphertext[i])
             shift = alphabet.find(keyword[i % len(keyword)])
             plaintext += alphabet[(ind - shift) % 26]
-        elif:
+        elif ciphertext[i] in alphabet_lower:
             ind = alphabet_lower.find(ciphertext[i])
             shift = alphabet_lower.find(keyword[i % len(keyword)])
             plaintext += alphabet_lower[(ind - shift) % 26]

@@ -15,8 +15,8 @@ def encrypt_caesar(plaintext: str, shift: int = 3) -> str:
     ''
     """
     ciphertext = ""
-    alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-    alphabet_lower = 'abcdefghijklmnopqrstuvwxyz'
+    alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    alphabet_lower = "abcdefghijklmnopqrstuvwxyz"
     for i in range(len(plaintext)):
         if plaintext[i] in alphabet:
             ind = alphabet.find(plaintext[i])
@@ -44,8 +44,8 @@ def decrypt_caesar(ciphertext: str, shift: int = 3) -> str:
     ''
     """
     plaintext = ""
-    alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-    alphabet_lower = 'abcdefghijklmnopqrstuvwxyz'
+    alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    alphabet_lower = "abcdefghijklmnopqrstuvwxyz"
     for i in range(len(ciphertext)):
         if ciphertext[i] in alphabet:
             ind = alphabet.find(ciphertext[i])

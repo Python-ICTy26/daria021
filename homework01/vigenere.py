@@ -40,7 +40,7 @@ def decrypt_vigenere(ciphertext: str, keyword: str) -> str:
     alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     alphabet_lower = "abcdefghijklmnopqrstuvwxyz"
     for i in range(len(ciphertext)):
-        if  ciphertext[i] in alphabet:
+        if ciphertext[i] in alphabet:
             ind = alphabet.find(ciphertext[i])
             shift = alphabet.find(keyword[i % len(keyword)])
             plaintext += alphabet[(ind - shift) % 26]

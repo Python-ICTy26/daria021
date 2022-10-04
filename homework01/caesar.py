@@ -15,7 +15,18 @@ def encrypt_caesar(plaintext: str, shift: int = 3) -> str:
     ''
     """
     ciphertext = ""
-    # PUT YOUR CODE HERE
+    alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    alphabet_lower = "abcdefghijklmnopqrstuvwxyz"
+    for i in range(len(plaintext)):
+        if plaintext[i] in alphabet:
+            ind = alphabet.find(plaintext[i])
+            ciphertext += alphabet[(ind + shift) % 26]
+        elif plaintext[i] in alphabet_lower:
+            ind = alphabet_lower.find(plaintext[i])
+            ciphertext += alphabet_lower[(ind + shift) % 26]
+        else:
+            ciphertext += plaintext[i]
+
     return ciphertext
 
 
@@ -33,7 +44,17 @@ def decrypt_caesar(ciphertext: str, shift: int = 3) -> str:
     ''
     """
     plaintext = ""
-    # PUT YOUR CODE HERE
+    alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    alphabet_lower = "abcdefghijklmnopqrstuvwxyz"
+    for i in range(len(ciphertext)):
+        if ciphertext[i] in alphabet:
+            ind = alphabet.find(ciphertext[i])
+            plaintext += alphabet[(ind - shift) % 26]
+        elif ciphertext[i] in alphabet_lower:
+            ind = alphabet_lower.find(ciphertext[i])
+            plaintext += alphabet_lower[(ind - shift) % 26]
+        else:
+            plaintext += ciphertext[i]
     return plaintext
 
 
@@ -42,5 +63,7 @@ def caesar_breaker_brute_force(ciphertext: str, dictionary: tp.Set[str]) -> int:
     Brute force breaking a Caesar cipher.
     """
     best_shift = 0
-    # PUT YOUR CODE HERE
+    for best_shift in range(26):
+        if decrypt_caesar(ciphertext) in dictionary:
+            return best_shift
     return best_shift

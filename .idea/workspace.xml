@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e06f6ae9-083b-4173-8ff6-db8145aaf0b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no1-sortirovka-vstavkami-vyborom-daria021/lab/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no1-sortirovka-vstavkami-vyborom-daria021/lab/10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no1-sortirovka-vstavkami-vyborom-daria021/lab/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no1-sortirovka-vstavkami-vyborom-daria021/lab/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no1-sortirovka-vstavkami-vyborom-daria021/lab/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no1-sortirovka-vstavkami-vyborom-daria021/lab/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no1-sortirovka-vstavkami-vyborom-daria021/lab/6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no1-sortirovka-vstavkami-vyborom-daria021/lab/7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no1-sortirovka-vstavkami-vyborom-daria021/lab/72.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no1-sortirovka-vstavkami-vyborom-daria021/lab/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no1-sortirovka-vstavkami-vyborom-daria021/lab/output.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ffhs4zm0rKaGOUqCDw8iSLxOBL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python tests.Doctests in rsa">
+    <configuration name="5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="laboratornaya-rabota-no1-sortirovka-vstavkami-vyborom-daria021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../laboratornaya-rabota-no1-sortirovka-vstavkami-vyborom-daria021/lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../laboratornaya-rabota-no1-sortirovka-vstavkami-vyborom-daria021/lab/5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest encrypt_vigenere" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="daria021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework01/vigenere.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="encrypt_vigenere" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest is_prime (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="daria021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework01/rsa.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="is_prime" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest is_prime" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="daria021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework01/rsa.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="is_prime" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in rsa" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="daria021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework01/rsa.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Doctests in rsa" />
+        <item itemvalue="Python tests.Doctest is_prime (1)" />
+        <item itemvalue="Python tests.Doctest is_prime" />
+        <item itemvalue="Python tests.Doctest encrypt_vigenere" />
+        <item itemvalue="Python.5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e06f6ae9-083b-4173-8ff6-db8145aaf0b0" name="Changes" comment="" />
+      <created>1664889251272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664889251272</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

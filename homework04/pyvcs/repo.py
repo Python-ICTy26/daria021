@@ -1,37 +1,42 @@
-
 import os
 import pathlib
 import typing as tp
 
 
 def repo_find(workdir: tp.Union[str, pathlib.Path] = ".") -> pathlib.Path:
-    root = os.getenv("GIT_DIR", ".git")
-
-    workdir = pathlib.Path(str(pathlib.Path(workdir) / root).split(root)[0]) / root
-    if not os.path.exists(workdir):
-        raise Exception("Not a git repository")
-    return pathlib.Path(workdir)
+    # Find repository directory
+    workdir = pathlib.Path(workdir)
+    if not workdir.is_dir():
+        raise NotADirectoryError(workdir)
+    gitdir = workdir / os.environ.get("GIT_DIR", ".git")
+    while not gitdir.is_dir():
+        if workdir.parent == workdir:
+            raise Exception(f"Not a git repository")
+        workdir = workdir.parent
+        gitdir = workdir / os.environ["GIT_DIR"]
+    return gitdir
 
 
 def repo_create(workdir: tp.Union[str, pathlib.Path]) -> pathlib.Path:
-    root = os.getenv("GIT_DIR", ".git")
+    # Create repository directory
     workdir = pathlib.Path(workdir)
-    if workdir.is_file():
-        raise Exception(f"{workdir.name} is not a directory")
-
-    os.makedirs(workdir / root / "refs" / "heads")
-    os.makedirs(workdir / root / "refs" / "tags")
-    os.makedirs(workdir / root / "objects")
-
-    with open(workdir / root / "HEAD", "w") as f:
+    if not workdir.is_dir():
+        raise Exception(f"{workdir} is not a directory")
+    gitdir = workdir / os.environ.get("GIT_DIR", ".git")
+    if gitdir.is_dir():
+        raise FileExistsError(gitdir)
+    os.makedirs(gitdir)
+    os.makedirs(gitdir / "branches")
+    os.makedirs(gitdir / "objects")
+    os.makedirs(gitdir / "refs" / "tags")
+    os.makedirs(gitdir / "refs" / "heads")
+    with open(gitdir / "HEAD", "wt") as f:
         f.write("ref: refs/heads/master\n")
-
-    with open(workdir / root / "config", "w") as f:
+    with open(gitdir / "config", "wt") as f:
         f.write(
             "[core]\n\trepositoryformatversion = 0\n\tfilemode = true\n\tbare = false\n\tlogallrefupdates = false\n"
         )
-
-    with open(workdir / root / "description", "w") as f:
+    with open(gitdir / "description", "wt") as f:
         f.write("Unnamed pyvcs repository.\n")
 
-    return pathlib.Path(workdir / root)
+    return gitdir

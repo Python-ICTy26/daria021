@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec6d4334-afe5-44db-aa60-cb1e6b1e1826" name="Changes" comment="" />
+    <list default="true" id="ec6d4334-afe5-44db-aa60-cb1e6b1e1826" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework04/pyvcs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework04/pyvcs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework04/pyvcs/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework04/pyvcs/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework04/pyvcs/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework04/pyvcs/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework04/pyvcs/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework04/pyvcs/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework04/pyvcs/objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework04/pyvcs/objects.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,13 +26,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/daria/OneDrive/Документы/GitHub/daria021/homework04"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/daria/OneDrive/Документы/GitHub/daria021/homework04&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests for test_life_proto.TestGameOfLife">
     <configuration name="life" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="daria021" />

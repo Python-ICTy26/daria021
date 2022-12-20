@@ -1,9 +1,12 @@
+import os
 import random
 import typing as tp
 from copy import deepcopy
 
 import pygame
 from pygame.locals import *
+
+os.environ["SDL_VIDEODRIVER"] = "dummy"
 
 Cell = tp.Tuple[int, int]
 Cells = tp.List[int]

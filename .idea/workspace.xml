@@ -11,11 +11,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/daria/OneDrive/Документы/GitHub/daria021/homework04"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/daria/OneDrive/Документы/GitHub/daria021/homework04&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests for test_life_proto.TestGameOfLife">
     <configuration name="life" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="daria021" />

@@ -10,7 +10,7 @@ def repo_find(workdir: tp.Union[str, pathlib.Path] = ".") -> pathlib.Path:
     workdir = pathlib.Path(str(pathlib.Path(workdir) / root).split(root)[0]) / root
     if not os.path.exists(workdir):
         raise Exception("Not a git repository")
-return pathlib.Path(workdir)
+    return pathlib.Path(workdir)
 
 
 def repo_create(workdir: tp.Union[str, pathlib.Path]) -> pathlib.Path:

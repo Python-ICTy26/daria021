@@ -64,4 +64,4 @@ def commit_tree(
     )
     string = "\n".join(dt)
 
-    return hash_object(string.encode(), "commit", False)
+    return hash_object(string.encode(), "commit", True)

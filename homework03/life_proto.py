@@ -2,9 +2,7 @@
 import random
 import typing as tp
 from copy import deepcopy
-
 import pygame
-from pygame.locals import *
 
 # os.environ["SDL_VIDEODRIVER"] = "dummy"
 
@@ -62,9 +60,9 @@ class GameOfLife:
             # Отрисовка списка клеток
             # Выполнение одного шага игры (обновление состояния ячеек)
 
+            self.grid = self.get_next_generation()
             pygame.display.flip()
             clock.tick(self.speed)
-            self.grid = self.get_next_generation()
         pygame.quit()
 
     def create_grid(self, randomize: bool = False) -> Grid:

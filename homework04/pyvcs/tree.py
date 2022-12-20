@@ -30,7 +30,7 @@ def write_tree(gitdir: pathlib.Path, index: tp.List[GitIndexEntry], dirname: str
         else:
             data += oct(file.mode)[2:].encode() + b" " + file.name.encode() + b"\0" + file.sha1
 
-        return hash_object(data, fmt="tree", write=True)
+    return hash_object(data, fmt="tree", write=True)
 
 
 def commit_tree(

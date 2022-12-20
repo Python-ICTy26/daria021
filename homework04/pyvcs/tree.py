@@ -41,18 +41,18 @@ def commit_tree(
     author: tp.Optional[str] = None,
 ) -> str:
     zone = time.timezone
-    os = "+" if zone < 0 else "-"
+    offset = "+" if zone < 0 else "-"
     zone = abs(zone)
     zone = zone // 60
-    os += f"{zone // 60:02}"
-    os += f"{zone % 60:02}"
+    offset += f"{zone // 60:02}"
+    offset += f"{zone % 60:02}"
 
     local = time.localtime()
-    s = time.mktime(local)
-    s = int(s)
+    sec = time.mktime(local)
+    sec = int(sec)
 
     if not author:
-        author = f"{os.getenv('GIT_AUTHOR_NAME')} <{os.getenv('GIT_AUTHOR_EMAIL')}>"
+        author = f"{offset.getenv('GIT_AUTHOR_NAME')} <{offset.getenv('GIT_AUTHOR_EMAIL')}>"
 
     dt = [f"tree {tree}"]
 
@@ -60,7 +60,7 @@ def commit_tree(
         dt.append(f"parent {parent}")
 
     dt.extend(
-        [f"author {author} {s} {os}", f"committer {author} {s} {os}", f"\n{message}\n"]
+        [f"author {author} {sec} {offset}", f"committer {author} {sec} {offset}", f"\n{message}\n"]
     )
     string = "\n".join(dt)
 

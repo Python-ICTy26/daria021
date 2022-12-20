@@ -24,8 +24,8 @@ class GameOfLife:
         self.screen_size = width, height
         # Создание нового окна
         pygame.init()
-        pygame.display.list_modes()
         self.screen = pygame.display.set_mode(self.screen_size)
+        pygame.display.list_modes()
 
         # Вычисляем количество ячеек по вертикали и горизонтали
         self.cell_width = self.width // self.cell_size

@@ -6,7 +6,6 @@ from string import Template
 
 import pandas as pd
 from pandas import json_normalize
-
 from vkapi.exceptions import APIError
 
 from .config import VK_CONFIG
@@ -23,7 +22,7 @@ def get_posts_2500(
     extended: int = 0,
     fields: tp.Optional[tp.List[str]] = None,
 ) -> tp.Dict[str, tp.Any]:
-    pass
+    return {}
 
 
 def get_wall_execute(
@@ -77,11 +76,9 @@ def get_wall_execute(
         )
         response = ses.post(
             "execute",
-            data={
-                "code": exec_code,
-                "access_token": VK_CONFIG["access_token"],
-                "v": VK_CONFIG["version"],
-            },
+            code=exec_code,
+            access_token=VK_CONFIG["access_token"],
+            v=VK_CONFIG["version"],
         ).json()
         res.extend(response["response"]["items"])
         if i % 2 == 0:

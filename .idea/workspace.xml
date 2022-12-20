@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="400e5a92-a94e-4df9-ba84-a7708a5cc152" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/homework05/research/age.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework05/research/age.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework05/research/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework05/research/network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework05/vkapi/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework05/vkapi/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework05/vkapi/friends.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework05/vkapi/friends.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework05/vkapi/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework05/vkapi/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework05/vkapi/wall.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework05/vkapi/wall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021/11.py" beforeDir="false" afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021/11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021/13.py" beforeDir="false" afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021/13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021/6.py" beforeDir="false" afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021/6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021/8.py" beforeDir="false" afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021/8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021/output.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2G5Mjce7x0dw7BM3Trv45p9mDCq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/daria/OneDrive/Документы/GitHub/buffer/proging5&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.3">
+    <configuration name="3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../laboratornaya-rabota-no4-stek-ochered-svyazannyy-spisok-daria021/3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest find_possible_values" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="daria021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework02/sudoku.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="find_possible_values" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest generate_sudoku" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="daria021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework02/sudoku.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="generate_sudoku" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in sudoku (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="daria021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework02/sudoku.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in sudoku" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="daria021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework02/sudoku.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.3" />
+        <item itemvalue="Python tests.Doctests in sudoku" />
+        <item itemvalue="Python tests.Doctest generate_sudoku" />
+        <item itemvalue="Python tests.Doctests in sudoku (1)" />
+        <item itemvalue="Python tests.Doctest find_possible_values" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="400e5a92-a94e-4df9-ba84-a7708a5cc152" name="Changes" comment="" />
+      <created>1665674127636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665674127636</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -25,7 +25,7 @@ class Console(UI):
         """Отобразить состояние клеток."""
         for i in range(self.life.rows):
             for j in range(self.life.cols):
-                if self.life.get_cell((i, j)):
+                if self.life.curr_generation[i][j]:
                     screen.addch(i + 1, j + 1, "*")
 
     def run(self) -> None:

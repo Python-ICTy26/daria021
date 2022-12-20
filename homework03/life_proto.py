@@ -2,6 +2,7 @@
 import random
 import typing as tp
 from copy import deepcopy
+
 import pygame
 
 # os.environ["SDL_VIDEODRIVER"] = "dummy"

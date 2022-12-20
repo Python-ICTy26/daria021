@@ -23,9 +23,7 @@ class GameOfLife:
         # Устанавливаем размер окна
         self.screen_size = width, height
         # Создание нового окна
-        pygame.init()
         self.screen = pygame.display.set_mode(self.screen_size)
-        pygame.display.list_modes()
 
         # Вычисляем количество ячеек по вертикали и горизонтали
         self.cell_width = self.width // self.cell_size
@@ -62,9 +60,9 @@ class GameOfLife:
             # Отрисовка списка клеток
             # Выполнение одного шага игры (обновление состояния ячеек)
 
-            self.grid = self.get_next_generation()
             pygame.display.flip()
             clock.tick(self.speed)
+            self.grid = self.get_next_generation()
         pygame.quit()
 
     def create_grid(self, randomize: bool = False) -> Grid:
@@ -215,5 +213,6 @@ class GameOfLife:
         return res
 
 
-window = GameOfLife(cell_size=40)
-window.run()
+if __name__ == "__main__":
+    window = GameOfLife(cell_size=40)
+    window.run()
